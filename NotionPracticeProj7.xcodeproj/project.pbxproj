@@ -13,6 +13,13 @@
 		8CDFC8A127013BEE001B5063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDFC89F27013BEE001B5063 /* Main.storyboard */; };
 		8CDFC8A327013BEF001B5063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CDFC8A227013BEF001B5063 /* Assets.xcassets */; };
 		8CDFC8A627013BEF001B5063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDFC8A427013BEF001B5063 /* LaunchScreen.storyboard */; };
+		8CDFC8AF27013BF7001B5063 /* NotionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDFC8AE27013BF7001B5063 /* NotionAPI.swift */; };
+		8CDFC8B2270141AA001B5063 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDFC8B1270141AA001B5063 /* SearchCell.swift */; };
+		8CDFC8B827014938001B5063 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDFC8B727014938001B5063 /* SearchRequest.swift */; };
+		8CDFC8BB27014940001B5063 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDFC8BA27014940001B5063 /* SearchResults.swift */; };
+		8CDFC8BE2701494E001B5063 /* NotionObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDFC8BD2701494E001B5063 /* NotionObjectType.swift */; };
+		8CDFC8C127014959001B5063 /* PageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDFC8C027014958001B5063 /* PageObject.swift */; };
+		8CDFC8C4270149B6001B5063 /* TitleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDFC8C3270149B6001B5063 /* TitleObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		8CDFC8A227013BEF001B5063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CDFC8A527013BEF001B5063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CDFC8A727013BEF001B5063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDFC8AE27013BF7001B5063 /* NotionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionAPI.swift; sourceTree = "<group>"; };
+		8CDFC8B1270141AA001B5063 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		8CDFC8B727014938001B5063 /* SearchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		8CDFC8BA27014940001B5063 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		8CDFC8BD2701494E001B5063 /* NotionObjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionObjectType.swift; sourceTree = "<group>"; };
+		8CDFC8C027014958001B5063 /* PageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageObject.swift; sourceTree = "<group>"; };
+		8CDFC8C3270149B6001B5063 /* TitleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +73,17 @@
 				8CDFC89927013BEE001B5063 /* AppDelegate.swift */,
 				8CDFC89B27013BEE001B5063 /* SceneDelegate.swift */,
 				8CDFC89D27013BEE001B5063 /* ViewController.swift */,
+				8CDFC8B1270141AA001B5063 /* SearchCell.swift */,
+				8CDFC8B727014938001B5063 /* SearchRequest.swift */,
+				8CDFC8BA27014940001B5063 /* SearchResults.swift */,
 				8CDFC89F27013BEE001B5063 /* Main.storyboard */,
 				8CDFC8A227013BEF001B5063 /* Assets.xcassets */,
 				8CDFC8A427013BEF001B5063 /* LaunchScreen.storyboard */,
 				8CDFC8A727013BEF001B5063 /* Info.plist */,
+				8CDFC8AE27013BF7001B5063 /* NotionAPI.swift */,
+				8CDFC8BD2701494E001B5063 /* NotionObjectType.swift */,
+				8CDFC8C027014958001B5063 /* PageObject.swift */,
+				8CDFC8C3270149B6001B5063 /* TitleObject.swift */,
 			);
 			path = NotionPracticeProj7;
 			sourceTree = "<group>";
@@ -138,8 +159,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CDFC89E27013BEE001B5063 /* ViewController.swift in Sources */,
+				8CDFC8C4270149B6001B5063 /* TitleObject.swift in Sources */,
+				8CDFC8C127014959001B5063 /* PageObject.swift in Sources */,
+				8CDFC8B2270141AA001B5063 /* SearchCell.swift in Sources */,
+				8CDFC8BE2701494E001B5063 /* NotionObjectType.swift in Sources */,
 				8CDFC89A27013BEE001B5063 /* AppDelegate.swift in Sources */,
+				8CDFC8B827014938001B5063 /* SearchRequest.swift in Sources */,
 				8CDFC89C27013BEE001B5063 /* SceneDelegate.swift in Sources */,
+				8CDFC8BB27014940001B5063 /* SearchResults.swift in Sources */,
+				8CDFC8AF27013BF7001B5063 /* NotionAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
