@@ -103,8 +103,7 @@ extension ViewController: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard
-            let searchCell = collectionView.dequeueReusableCell(
+        guard let searchCell = collectionView.dequeueReusableCell(
                 withReuseIdentifier: "searchCell",
                 for: indexPath
             ) as? SearchCell
