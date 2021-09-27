@@ -60,8 +60,7 @@ class ViewController: UIViewController {
         searchField.addTarget(self, action: #selector(editingChanged(_:)), for: .editingChanged)
     }
 
-    @objc
-    func editingChanged(_ textfield: UITextField) {
+    @objc func editingChanged(_ textfield: UITextField) {
         NSObject.cancelPreviousPerformRequests(
             withTarget: self,
             selector: #selector(debounce),
@@ -70,8 +69,7 @@ class ViewController: UIViewController {
         perform(#selector(debounce), with: nil, afterDelay: 1)
     }
 
-    @objc
-    func debounce() {
+    @objc func debounce() {
         guard let query = searchField.text else { return }
         let searchRequest = SearchRequest(query: query, sort: Sort(direction: .ascending, timestamp: "last_edited_time"))
         NotionAPI.search(searchRequest).execute(forResponse: SearchResults.self) { [weak self] result in

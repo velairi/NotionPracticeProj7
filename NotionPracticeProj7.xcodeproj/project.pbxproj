@@ -72,20 +72,36 @@
 			children = (
 				8CDFC89927013BEE001B5063 /* AppDelegate.swift */,
 				8CDFC89B27013BEE001B5063 /* SceneDelegate.swift */,
-				8CDFC89D27013BEE001B5063 /* ViewController.swift */,
-				8CDFC8B1270141AA001B5063 /* SearchCell.swift */,
-				8CDFC8B727014938001B5063 /* SearchRequest.swift */,
-				8CDFC8BA27014940001B5063 /* SearchResults.swift */,
+				8CDFC8C9270181CB001B5063 /* UI */,
+				8CDFC8C8270181AE001B5063 /* Networking */,
 				8CDFC89F27013BEE001B5063 /* Main.storyboard */,
 				8CDFC8A227013BEF001B5063 /* Assets.xcassets */,
 				8CDFC8A427013BEF001B5063 /* LaunchScreen.storyboard */,
 				8CDFC8A727013BEF001B5063 /* Info.plist */,
+			);
+			path = NotionPracticeProj7;
+			sourceTree = "<group>";
+		};
+		8CDFC8C8270181AE001B5063 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
 				8CDFC8AE27013BF7001B5063 /* NotionAPI.swift */,
+				8CDFC8B727014938001B5063 /* SearchRequest.swift */,
+				8CDFC8BA27014940001B5063 /* SearchResults.swift */,
 				8CDFC8BD2701494E001B5063 /* NotionObjectType.swift */,
 				8CDFC8C027014958001B5063 /* PageObject.swift */,
 				8CDFC8C3270149B6001B5063 /* TitleObject.swift */,
 			);
-			path = NotionPracticeProj7;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8CDFC8C9270181CB001B5063 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8CDFC89D27013BEE001B5063 /* ViewController.swift */,
+				8CDFC8B1270141AA001B5063 /* SearchCell.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
